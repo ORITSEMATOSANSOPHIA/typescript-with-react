@@ -1,0 +1,13 @@
+.HelloText { margin-top: 5%; margin-bottom: 5%; color: rgb(204, 51, 24); }
+
+.HelloText {
+    opacity: 0; /* Initial opacity for fade-in */
+    animation: fadeIn ease-in 1s forwards; 
+    text-shadow: rgb(35, 166, 218) 1px 0 10px; 
+    font-size: 55px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }

@@ -1,0 +1,60 @@
+.Counting  {
+    opacity: 0; /* Initial opacity for fade-in */
+    animation: fadeIn ease-in 1s forwards;
+    display: block !important; 
+    justify-content: center;
+  }
+
+  .Counting {
+       background: rgb(207, 58, 31); /* Gradient background */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    margin-right: 45%;
+    margin-left: 45%;
+    font-size: 25px;
+    
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Shadow properties */
+        transform: rotateZ(-1deg); /* Slight rotation */
+        color: #2e9b9b; /* Text color */
+        box-shadow: 12px 12px 2px 1px rgba(128, 212, 72, 0.2);
+        display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(88, 185, 93, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition */
+    cursor: pointer; /* Set cursor to pointer on hover */
+      
+  }
+
+ 
+  
+  
+  .Counting:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+  }
+
+
+
+  .ButtonIncrement {
+    color: rgb(124, 245, 68);
+    background-color: rgb(46, 149, 218);
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+  
+  .ButtonIncrement:hover {
+    background-color: #09352f; /* Subtle hover background change */
+    transform: scale(1.02); /* Slight zoom on hover */
+  }
+  
+ 
